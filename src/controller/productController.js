@@ -1,6 +1,6 @@
 const productModel = require("../models/productModel");
 const mongoose = require("mongoose")
-const validator = require("../validator/validation")
+const validator = require("../validation/validation")
 const { uploadFile } = require("../aws/awsConnect")
 const jwt = require("jsonwebtoken");
 
